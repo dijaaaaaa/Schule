@@ -1,2 +1,6 @@
 # schule1
 erstes mal was machen fr fr 
+
+very big update turns out that my teach hates me and he wants me to die so like yeah.....
+im in a new group now sigh heh...
+i guess i deserve it 
