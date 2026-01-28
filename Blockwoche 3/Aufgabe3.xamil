@@ -1,0 +1,24 @@
+<Window x:Class="Blockwoche_3.aufagbe3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blockwoche_3"
+        mc:Ignorable="d"
+        Title="aufagbe3" Height="450" Width="800">
+    <Grid>
+        <TextBox  x:Name="userInput" HorizontalAlignment="Left" Margin="92,82,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="284"/>
+        <Button x:Name="buton"  Content="Button" HorizontalAlignment="Left" Margin="415,82,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock x:Name="ergebnissTxt"  HorizontalAlignment="Left" Margin="92,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="273"><Run Language="de-at" Text="ERGEBNISS:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="86,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="29" Width="197">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.731"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="de-at" Text="WARENWERTEINLESER"/></TextBlock>
+
+    </Grid>
+</Window>
