@@ -1,0 +1,28 @@
+<Page x:Class="Blockwoche_3.Aufgabe1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Blockwoche_3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Aufgabe1">
+
+    <Grid Background="White">
+        <TextBlock HorizontalAlignment="Left" Margin="137,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="69" Width="378" FontSize="18">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.284"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run x:Name="Erklarung"  Text="Bitte geben Sie da"/><Run Text="s Nettobetrag "/><Run Text="in das Text"/><Run Text="box unten, und ich werde die Mehrwertssteurt und "/><Run Language="de-at" Text="das "/><Run Text="Bruttobetrag ausrechnen "/></TextBlock>
+        <TextBox x:Name="nettoBetragInput" HorizontalAlignment="Left" Margin="201,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="34" />
+        <Button x:Name="button" Content="ok" HorizontalAlignment="Left" Margin="349,205,0,0" VerticalAlignment="Top" Click="OkButton" Height="30" Width="30" />
+        <TextBlock  x:Name="nettoInput" HorizontalAlignment="Left" Height="20" Margin="136,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="60"><Run Language="de-at" Text="Netto"/></TextBlock>
+        <TextBlock x:Name="txtOutput"  HorizontalAlignment="Left" Height="46" Margin="136,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" RenderTransformOrigin="0.567,1.851"><Run Text="Brrutto"/><Run Text=" "/><Run Language="de-at" Text="und Mstw: "/></TextBlock>
+        <TextBlock x:Name="txtGehalt"  HorizontalAlignment="Left" Margin="136,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="102"><Run Language="de-at" Text="Ihr Gehalt:"/></TextBlock>
+
+    </Grid>
+</Page>
