@@ -1,0 +1,38 @@
+<Page x:Class="Blockwoche_3.aufgabe2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Blockwoche_3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="aufgabe2">
+
+    <Grid Background="#FFFBFBFB">
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="81,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="417" FontSize="20" FontWeight="Bold"><Run Language="de-at" Text="SATZ  DES PYTHAGORAS"/></TextBlock>
+        <TextBlock x:Name="katheteTxtBlock"  HorizontalAlignment="Left" Height="28" Margin="81,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94"><Run Language="de-at" Text="Kathete"/></TextBlock>
+        <TextBlock x:Name="katheteTxtBlock2"  HorizontalAlignment="Left" Height="23" Margin="81,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68"><Run Language="de-at" Text="Kathete"/></TextBlock>
+        <TextBox x:Name="kathete1Input"  HorizontalAlignment="Left" Height="14" Margin="180,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" />
+        <TextBox x:Name="kathete2Input"  HorizontalAlignment="Left" Margin="178,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.236"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button Content="OK" HorizontalAlignment="Left" Height="45" Margin="400,129,0,0" VerticalAlignment="Top" Width="41" Click="OkButton"/>
+        <TextBlock x:Name="ergebnissTxt"  HorizontalAlignment="Left" Margin="81,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="35" Width="365" FontWeight="Bold" TextDecorations="Underline">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.269"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="de-at"/></TextBlock>
+
+    </Grid>
+</Page>
