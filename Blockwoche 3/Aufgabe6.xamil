@@ -1,0 +1,17 @@
+<Page x:Class="Blockwoche_3.aufgabe6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Blockwoche_3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="aufgabe6">
+
+    <Grid Background="White">
+        <DataGrid x:Name="robbenTabbele"   d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="KeglrobbenTabelle" Margin="64,129,32,198"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="132" RenderTransformOrigin="1.426,-0.284" FontSize="20" FontWeight="Bold"><Run Language="de-at" Text="KAGLROBBEN"/></TextBlock>
+        <Button Content="klicken um zu berechnen" HorizontalAlignment="Center" Margin="0,307,0,0" VerticalAlignment="Top" Height="31" Width="212" Click="Button_Click"/>
+
+    </Grid>
+</Page>
