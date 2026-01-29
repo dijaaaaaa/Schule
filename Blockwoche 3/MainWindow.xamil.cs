@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Blockwoche_3
+namespace Blochwoche_3
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -21,24 +21,24 @@ namespace Blockwoche_3
             InitializeComponent();
         }
 
-        private void Button1(object sender, RoutedEventArgs e) //aufagebe 1
+        private void Button1(object sender, RoutedEventArgs e) 
         {
-            MainFrame.Navigate(new Aufgabe1());
+            MainFrame.Navigate(new aufgabe1());
         }
 
-        private void Button2(object sender, RoutedEventArgs e) //aufagbe 2
+        private void Button2(object sender, RoutedEventArgs e) 
         {
             MainFrame.Navigate(new aufgabe2());
         }
 
-        private void Button3(object sender, RoutedEventArgs e)//aufgebe 3
+        private void Button3(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new aufagbe3());
+            MainFrame.Navigate(new aufgabe3());
         }
 
-        private void Button4(object sender, RoutedEventArgs e)//aufgebe 3
+        private void Button4(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new aufagbe4());
+            MainFrame.Navigate(new aufgabe3());
         }
 
 
