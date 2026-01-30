@@ -1,1 +1,33 @@
+<Page x:Class="Blockwoche_3.aufgabe9"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Blockwoche_3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="aufgabe9">
+
+    <Grid Background="White">
+        <TextBox x:Name="lange"  HorizontalAlignment="Left" Height="26" Margin="192,74,0,0" TextWrapping="Wrap" Text="Länge" VerticalAlignment="Top" Width="208"/>
+        <TextBox x:Name="breite"  HorizontalAlignment="Left" Margin="192,125,0,0" TextWrapping="Wrap" Text="Breite" VerticalAlignment="Top" Width="211" RenderTransformOrigin="0.5,0.5" Height="26">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.874"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox  x:Name="hohe" HorizontalAlignment="Left" Height="29" Margin="192,177,0,0" TextWrapping="Wrap" Text="Höhe" VerticalAlignment="Top" Width="208"/>
+        <Button Content="okay" HorizontalAlignment="Left" Height="52" Margin="455,109,0,0" VerticalAlignment="Top" Width="91" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="192,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="208"/>
+        <Frame  x:Name="Aufagbe8Frame"   />
+        <Button x:Name="button9N"  Content="next" HorizontalAlignment="Left" Margin="671,404,0,0" VerticalAlignment="Top" Width="106" Click="Button9N"/>
+        <Button x:Name="button9P"  Content="previous" HorizontalAlignment="Left" Margin="29,404,0,0" VerticalAlignment="Top" Width="112" Click="Button9P"/>
+        <TextBlock  x:Name="ergebnissTxt" HorizontalAlignment="Left" Margin="192,243,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="50" Width="208"/>
+
+    </Grid>
+</Page>
 
